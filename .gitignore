@@ -1,4 +1,5 @@
-**data/raw
+**raw
 **data/tmp
 **.ipynb_checkpoints
 data/finalQC.fasta
+data/ABCD_combined_reads.fastq
