@@ -1,0 +1,5 @@
+#                                        best-matching model               
+#                         -------------------------------------------------
+#     idx  sequence name  model name   beg   end    CM sc   struct   HMM sc
+# -------  -------------  ----------  ----  ----  -------  -------  -------
+        1  X90478         bacteria      71  1375   909.76   513.24   517.84

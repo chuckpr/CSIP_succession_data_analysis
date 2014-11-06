@@ -1,0 +1,28 @@
+# command:    ssu-cmsearch --hmm-cW 1.5 --no-null3 --noalign --cm-name bacteria -T -1 --tab data/sso_aln/sso_aln.tab --viterbi /usr/local/share/ssu-align-0.1/ssu-align-0p1.cm data/X90478.fasta
+# date:       Tue Nov  4 12:59:27 2014
+# num seqs:   1
+# dbsize(Mb): 0.002872
+#
+# Pre-search info for CM 2: bacteria
+#
+# rnd  mod  alg  cfg   beta  bit sc cut
+# ---  ---  ---  ---  -----  ----------
+#   1  hmm  vit  loc      -       -1.00
+#
+# CM: bacteria
+#                                    target coord   query coord                         
+#                          ----------------------  ------------                         
+# model name  target name       start        stop  start   stop    bit sc   E-value  GC%
+# ----------  -----------  ----------  ----------  -----  -----  --------  --------  ---
+  bacteria    X90478               71        1375      1   1582    517.84         -   63
+  bacteria    X90478             1039         991      1   1582      1.10         -   55
+#
+# Post-search info for CM 2: bacteria
+#
+# rnd  mod  alg  cfg   beta  bit sc cut  num hits  surv fract
+# ---  ---  ---  ---  -----  ----------  --------  ----------
+#   1  hmm  vit  loc      -       -1.00         2      0.4714
+#
+#    run time  (hr:min:sec)
+# -----------
+#    00:00:00

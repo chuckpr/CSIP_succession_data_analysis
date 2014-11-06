@@ -1,0 +1,57 @@
+# ssu-align :: align SSU rRNA sequences
+# SSU-ALIGN 0.1 (June 2010)
+# Copyright (C) 2010 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-align -f -n bacteria --dna --rfonly data/X90478.fasta data/sso_aln
+# date:    Tue Nov  4 12:59:26 2014
+#
+# Validating input sequence file ... done.
+#
+# Stage 1: Determining SSU start/end positions and best-matching models...
+#
+# output file name          description                                
+# ------------------------  -------------------------------------------
+  sso_aln.tab               locations/scores of hits defined by HMM(s)
+  sso_aln.bacteria.hitlist  list of sequences to align with bacteria CM
+  sso_aln.bacteria.fa             1 sequence  to align with bacteria CM
+#
+# Stage 2: Aligning each sequence to its best-matching model...
+#
+# output file name          description
+# ------------------------  ---------------------------------------
+  sso_aln.bacteria.stk      bacteria alignment
+  sso_aln.bacteria.cmalign  bacteria cmalign output
+  sso_aln.bacteria.ifile    bacteria insert info
+  sso_aln.scores            list of CM/HMM scores for each sequence
+#
+# Summary statistics:
+#
+# model or       number  fraction        average   average               
+# category      of seqs  of total         length  coverage    nucleotides
+# ------------  -------  --------  -------------  --------  -------------
+  *input*             1    1.0000        1436.00    1.0000           1436
+#
+  bacteria            1    1.0000        1305.00    0.9088           1305
+#
+  *all-models*        1    1.0000        1305.00    0.9088           1305
+  *no-models*         0    0.0000              -         -              0
+#
+# Speed statistics:
+#
+# stage      num seqs  seq/sec  seq/sec/model    nucleotides    nt/sec
+# ---------  --------  -------  -------------  -------------  --------
+  search            1    4.789          4.789           1436    6877.5
+  alignment         1    1.658          1.658           1305    2164.2
+#
+#
+# List of executed commands saved in:     sso_aln.ssu-align.log.
+# Output printed to the screen saved in:  sso_aln.ssu-align.sum.
+#
+# All output files created in directory ./data/sso_aln/
+#
+# CPU time (search):     00:00:00.21  (hh:mm:ss)
+# CPU time (alignment):  00:00:00.60  (hh:mm:ss)
+# CPU time (total):      00:00:00.86  (hh:mm:ss)
+#
+# SSU-ALIGN-SUCCESS

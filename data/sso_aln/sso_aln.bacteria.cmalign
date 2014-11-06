@@ -1,0 +1,21 @@
+# ssu-cmalign :: align sequences to an RNA CM
+# INFERNAL s0.1 (June 2010)
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-cmalign --cm-name bacteria --dna --matchonly --mxsize 4096 --no-null3 --sub --ifile data/sso_aln/sso_aln.bacteria.ifile -o data/sso_aln/sso_aln.bacteria.stk /usr/local/share/ssu-align-0.1/ssu-align-0p1.cm data/sso_aln/sso_aln.bacteria.fa
+# date:    Tue Nov  4 12:59:27 2014
+#
+# cm name                    algorithm  config  sub  bands     tau
+# -------------------------  ---------  ------  ---  -----  ------
+# bacteria                     opt acc  global  yes    hmm   1e-07
+#
+#                                bit scores                            
+#                             ------------------                       
+#   seq idx  seq name    len     total    struct  avg prob      elapsed
+# ---------  --------  -----  --------  --------  --------  -----------
+          1  X90478     1305    909.76    513.24     0.962  00:00:00.45
+# Alignment saved in file data/sso_aln/sso_aln.bacteria.stk.
+# Per-sequence insert information saved in file data/sso_aln/sso_aln.bacteria.ifile.
+#
+# CPU time: 0.52u 0.07s 00:00:00.59 Elapsed: 00:00:00.60

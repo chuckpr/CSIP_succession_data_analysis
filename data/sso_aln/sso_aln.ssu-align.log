@@ -1,0 +1,133 @@
+# ssu-align :: align SSU rRNA sequences
+# SSU-ALIGN 0.1 (June 2010)
+# Copyright (C) 2010 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command: ssu-align -f -n bacteria --dna --rfonly data/X90478.fasta data/sso_aln
+# date:    Tue Nov  4 12:59:26 2014
+
+Printing global hask key as read from ssu.pm:
+
+Global hash key: DF_ALIMASK_PFRACT    value: 0.95
+Global hash key: DF_ALIMASK_PTHRESH   value: 0.95
+Global hash key: DF_CMALIGN_OPTS      value:  --no-null3 --sub 
+Global hash key: DF_CMBUILD_GAPTHRESH value: 0.8
+Global hash key: DF_CMSEARCH_ALG_FLAG value:  --viterbi
+Global hash key: DF_CMSEARCH_OPTS     value:  --hmm-cW 1.5 --no-null3 --noalign 
+Global hash key: DF_CMSEARCH_T        value: -1
+Global hash key: DF_CM_FILE           value: /usr/local/share/ssu-align-0.1/ssu-align-0p1.cm
+Global hash key: DF_MASK_FILE         value: /usr/local/share/ssu-align-0.1/ssu-align-0p1.mask
+Global hash key: DF_MERGE_INIT_WAIT_SECS value: 3
+Global hash key: DF_MINBIT            value: 50
+Global hash key: DF_MINLEN            value: 1
+Global hash key: DF_MXSIZE            value: 4096
+Global hash key: DF_NO_NAME           value: <NONE>
+Global hash key: DF_TEMPLATE_FILE     value: /usr/local/share/ssu-align-0.1/ssu-align-0p1.ps
+Global hash key: VERSION              value: 0.1
+Global hash key: VERSION_PSTR         value: 0p1
+Global hash key: cmalign              value: ssu-cmalign
+Global hash key: cmbuild              value: ssu-cmbuild
+Global hash key: cmsearch             value: ssu-cmsearch
+Global hash key: esl-alimanip         value: ssu-esl-alimanip
+Global hash key: esl-alimask          value: ssu-esl-alimask
+Global hash key: esl-alimerge         value: ssu-esl-alimerge
+Global hash key: esl-alistat          value: ssu-esl-alistat
+Global hash key: esl-reformat         value: ssu-esl-reformat
+Global hash key: esl-seqstat          value: ssu-esl-seqstat
+Global hash key: esl-sfetch           value: ssu-esl-sfetch
+Global hash key: esl-ssdraw           value: ssu-esl-ssdraw
+Global hash key: esl-weight           value: ssu-esl-weight
+Global hash key: ps2pdf               value: ps2pdf
+Global hash key: ssu-align            value: ssu-align
+Global hash key: ssu-merge            value: ssu-merge
+
+Executing:      ssu-esl-seqstat -h > /dev/null  2> data/ssutmp0erraa182870
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp0erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-cmsearch -h > /dev/null  2> data/ssutmp1erraa182870
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp1erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-esl-sfetch -h > /dev/null  2> data/ssutmp2erraa182870
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp2erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-esl-reformat -h > /dev/null  2> data/ssutmp3erraa182870
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp3erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-cmalign -h > /dev/null  2> data/ssutmp4erraa182870
+Returned:       0
+Output (STDOUT) sent to /dev/null.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp4erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-esl-seqstat --rna -a data/X90478.fasta > data/sso_aln/sso_aln.seqstat  2> data/ssutmp5erraa182870
+Returned:       0
+Output (STDOUT) saved in file data/sso_aln/sso_aln.seqstat.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp5erraa182870) with perl's unlink function ... done.
+
+About to remove file (data/sso_aln/sso_aln.seqstat) with perl's unlink function ... done.
+
+Executing:      ssu-cmsearch --hmm-cW 1.5 --no-null3 --noalign --cm-name bacteria -T -1 --tab data/sso_aln/sso_aln.tab --viterbi /usr/local/share/ssu-align-0.1/ssu-align-0p1.cm data/X90478.fasta > data/sso_aln/sso_aln.cmsearch  2> data/ssutmp6erraa182870
+Returned:       0
+Output (STDOUT) saved in file data/sso_aln/sso_aln.cmsearch.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp6erraa182870) with perl's unlink function ... done.
+
+About to remove file (data/sso_aln/sso_aln.cmsearch) with perl's unlink function ... done.
+
+Executing:      ssu-esl-sfetch --index data/X90478.fasta > data/ssutmp7outaa182870  2> data/ssutmp7erraa182870
+Returned:       0
+Output (STDOUT): 
+Creating SSI index for data/X90478.fasta...    done.
+Indexed 1 sequences (1 names).
+SSI index written to file data/X90478.fasta.ssi
+
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp7outaa182870) with perl's unlink function ... done.
+
+About to remove file (data/ssutmp7erraa182870) with perl's unlink function ... done.
+
+Executing:      ssu-esl-sfetch -Cf data/X90478.fasta data/sso_aln/sso_aln.bacteria.sfetch | ssu-esl-reformat -o data/sso_aln/sso_aln.bacteria.fa --informat fasta -d fasta - > data/ssutmp8outaa182870  2> data/ssutmp8erraa182870
+Returned:       0
+Output (STDOUT): ***NONE***
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp8outaa182870) with perl's unlink function ... done.
+
+About to remove file (data/ssutmp8erraa182870) with perl's unlink function ... done.
+
+About to remove file (data/sso_aln/sso_aln.bacteria.sfetch) with perl's unlink function ... done.
+
+Executing:      ssu-cmalign --cm-name bacteria --dna --matchonly --mxsize 4096 --no-null3 --sub --ifile data/sso_aln/sso_aln.bacteria.ifile -o data/sso_aln/sso_aln.bacteria.stk /usr/local/share/ssu-align-0.1/ssu-align-0p1.cm data/sso_aln/sso_aln.bacteria.fa > data/sso_aln/sso_aln.bacteria.cmalign  2> data/ssutmp9erraa182870
+Returned:       0
+Output (STDOUT) saved in file data/sso_aln/sso_aln.bacteria.cmalign.
+Output (STDERR): ***NONE***
+
+About to remove file (data/ssutmp9erraa182870) with perl's unlink function ... done.
+
+About to remove file (data/sso_aln/sso_aln.nomatch) with perl's unlink function ... done.
+
+About to remove file (data/X90478.fasta.ssi) with perl's unlink function ... done.
+
+Tue Nov  4 12:59:27 MST 2014
+Linux system76-server 3.2.0-68-generic #102-Ubuntu SMP Tue Aug 12 22:02:15 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
