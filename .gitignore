@@ -5,3 +5,4 @@ ssu_aln_silva111_hits.ssu-align.sh
 **.ipynb_checkpoints
 data/finalQC.fasta
 data/ABCD_combined_reads.fastq
+figures_and_stats/table*
