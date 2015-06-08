@@ -9,11 +9,17 @@
 
 ## IPython notebooks for supplemental figures
 
-[Figure S1](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure S2](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure S3](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure S4](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure S5](http://nbviewer.ipython.org/github/chuckpr/)  
+[Figure S2](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/counts.ipynb)  
+[Figure S3](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/bulk_ordination.ipynb)  
+[Figure S4](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/bulk_w_time.ipynb)  
+[Figure S5](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/bulk_w_time.ipynb)  
+[Figure S6](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/abund_v_time.ipynb)  
+[Figure S7](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/counts.ipynb)  
+[Figure S8](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/trees.ipynb)  
+[Figure S9](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/demos.ipynb)  
+[Figure S10](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/copy_number.ipynb)  
+[Figure S11](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/demos.ipynb)  
+[Figure S12](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/foodweb.ipynb)  
 
 ## Sequence processing IPython notebooks
 
