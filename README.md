@@ -2,10 +2,10 @@
 
 ## IPython notebooks for each figure
 
-[Figure 1](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure 2](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure 3](http://nbviewer.ipython.org/github/chuckpr/)  
-[Figure 4](http://nbviewer.ipython.org/github/chuckpr/)  
+[Figure 1](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/ordination_all.ipynb)  
+[Figure 2](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/l2fc_figure.ipynb)  
+[Figure 3](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/responder_info.ipynb)  
+[Figure 4](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/generalist_specialist.ipynb)  
 
 ## IPython notebooks for supplemental figures
 
