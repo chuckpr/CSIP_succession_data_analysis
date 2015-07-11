@@ -1,4 +1,4 @@
-# This is the data analysis repo for the C-SIP degradation succession study in the Buckley lab.
+# This is the data analysis repo for the DNA-SIP degradative succession study in the Buckley lab.
 
 ## IPython notebooks for each figure
 [Figure 1](http://nbviewer.ipython.org/github/chuckpr/CSIP_succession_data_analysis/blob/master/figures_and_stats/ordination_all.ipynb)  
